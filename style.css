@@ -1,0 +1,129 @@
+    body {
+        background-color: #819A91 ;
+        margin-top: 90px;
+    }
+
+    .highlight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name_desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name{
+        margin-top: 20px;
+    }
+    .desc {
+        margin-top: -20px;
+    }
+
+    .me {
+        padding: 10px;
+        border-radius: 70px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: #A7C1AB;
+    }
+    
+    .social_icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icon {
+        padding: 0px;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .icon:hover {
+        transform: scale(1.2);
+    }
+
+    .music_disc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .music_cover {
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+        background-color: #D1D8BE;
+        border-radius: 70px;
+    }
+
+    .music_placeholder {
+        padding: 50px;
+        padding-bottom: 70px;
+        background-color: #EEEFE0;
+        border-radius: 20px;
+        transition: transform 0.75s ease;
+    }
+
+    .music_placeholder:hover{
+        transform: scale(1.1);
+    }
+ 
+    .stream_on {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .music_platform {
+        padding: 0px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: #A7C1AB;
+        transition: transform 0.3s ease;
+    }
+
+    .music_platform:hover {
+        transform: scale(1.2);
+    }
+
+    .music_desc {
+        width: 180px;
+        text-align: center;
+        white-space: normal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+    
+    .music_desc_suns {
+        width: 180px;
+        text-align: center;
+        white-space: normal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -25px;
+        
+    }
+
+    .sunset_stereo {
+        margin-top: 35px;
+    }
+
+        .stream_on_suns {
+            margin-top: 6px;
+        }
+
+    .discover_her_music {
+        text-align: center;
+        margin-top: 70px;
+    }
